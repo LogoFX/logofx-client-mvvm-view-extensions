@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Data;
 using LogoFX.Client.Mvvm.ViewModel.Extensions;
-using LogoFX.Client.Mvvm.Core;
+using LogoFX.Client.Mvvm.Notifications;
 using LogoFX.Client.Mvvm.View.Extensions.Controls;
 
 namespace LogoFX.Client.Mvvm.View.Extensions
