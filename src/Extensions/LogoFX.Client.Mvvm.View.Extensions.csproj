@@ -58,7 +58,7 @@
       <Version>2.0.0-rc1</Version>
     </PackageReference>
     <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Extensions">
-      <Version>1.2.1-rc5</Version>
+      <Version>2.0.0-rc1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
