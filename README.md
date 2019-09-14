@@ -6,3 +6,4 @@ Extension facilities for the view layer.
 
 
 [![Sourcegraph](https://sourcegraph.com/github.com/LogoFX/logofx-client-mvvm-view-extensions/-/badge.svg)](https://sourcegraph.com/github.com/LogoFX/logofx-client-mvvm-view-extensions?badge)
+
