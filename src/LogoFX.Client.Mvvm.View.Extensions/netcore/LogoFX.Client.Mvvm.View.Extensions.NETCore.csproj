@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AssemblyName>LogoFX.Client.Mvvm.View.Extensions</AssemblyName>
+    <RootNamespace>LogoFX.Client.Mvvm.View.Extensions</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\netcore\Release\</OutputPath>
+    <DocumentationFile>..\..\Bin\netcore\Release\LogoFX.Client.Mvvm.View.Extensions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\Controls\VirtualizingSmartPanel.cs" Link="Controls\VirtualizingSmartPanel.cs" />
+    <Compile Include="..\src\PagingViewModelHelper.cs" Link="PagingViewModelHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LogoFX.Client.Mvvm.Core" Version="2.1.0" />
+    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Extensions" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
