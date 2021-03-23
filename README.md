@@ -3,7 +3,6 @@ Extension facilities for the view layer.
 
 <img src=https://ci.appveyor.com/api/projects/status/github/logofx/logofx-client-mvvm-view-extensions>
 
+<img src=https://img.shields.io/nuget/dt/LogoFX.Client.Mvvm.View.Extensions>
 
-
-[![Sourcegraph](https://sourcegraph.com/github.com/LogoFX/logofx-client-mvvm-view-extensions/-/badge.svg)](https://sourcegraph.com/github.com/LogoFX/logofx-client-mvvm-view-extensions?badge)
-
+[Get package](https://www.nuget.org/packages/LogoFX.Client.Mvvm.View.Extensions)
