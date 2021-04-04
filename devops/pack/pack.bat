@@ -12,5 +12,4 @@ cd ..
 mkdir netcoreapp3.1
 robocopy ../../../../src/Bin/netcore/Release netcoreapp3.1 LogoFX.Client.Mvvm.View.Extensions.* /E
 cd ../../
-cd
-nuget pack contents/LogoFX.Client.Mvvm.View.Extensions.nuspec -OutputDirectory ../../../output
+nuget pack contents/LogoFX.Client.Mvvm.View.Extensions.nuspec -OutputDirectory ../../output
