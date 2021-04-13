@@ -22,7 +22,7 @@
     <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Mvvm.Core" Version="2.2.0-rc1" />
-    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Extensions" Version="2.2.0-rc1" />
+    <PackageReference Include="LogoFX.Client.Mvvm.Core" Version="2.2.0-rc2" />
+    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Extensions" Version="2.2.0-rc2" />
   </ItemGroup>
 </Project>
