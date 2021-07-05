@@ -326,7 +326,7 @@ namespace LogoFX.Client.Mvvm.View.Extensions.Controls
 
             for (int i = 0; i < childCount; i++)
             {
-                double left = column * ItemWidth - HorizontalOffset;
+                double left = (column * ItemWidth) - HorizontalOffset;
                 double top = row * ItemHeight;
 
                 var arrangeRect = new Rect(left, top, ItemWidth, ItemHeight);
@@ -340,7 +340,6 @@ namespace LogoFX.Client.Mvvm.View.Extensions.Controls
                     ++column;
                 }
             }
-
 
             return finalSize;
         }
@@ -472,7 +471,7 @@ namespace LogoFX.Client.Mvvm.View.Extensions.Controls
             if (_pageSize.Width > 0.0)
             {
                 int currentPage = _updating ? CurrentPage : (int) Math.Round(HorizontalOffset/_pageSize.Width);
-                double left = currentPage*_pageSize.Width - HorizontalOffset;
+                double left = (currentPage*_pageSize.Width) - HorizontalOffset;
                 var pageRect = CurrentPageRect;
                 if (!pageRect.Left.Equals(left))
                 {
