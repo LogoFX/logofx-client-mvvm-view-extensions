@@ -5,7 +5,7 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AssemblyName>LogoFX.Client.Mvvm.View.Extensions</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.View.Extensions</RootNamespace>
-    <Version>2.2.1</Version>
+    <Version>2.2.2</Version>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>..\..\Bin\net\Release\</OutputPath>
@@ -22,7 +22,7 @@
     <Folder Include="Controls\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Mvvm.Core" Version="2.2.1" />
-    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Extensions" Version="2.2.1" />
+    <PackageReference Include="LogoFX.Client.Mvvm.Core" Version="2.2.2" />
+    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Extensions" Version="2.2.2" />
   </ItemGroup>
 </Project>
