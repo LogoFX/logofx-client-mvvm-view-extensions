@@ -8,3 +8,5 @@ Extension facilities for the view layer.
 <img src=https://img.shields.io/nuget/dt/LogoFX.Client.Mvvm.View.Extensions>
 
 [Get package](https://www.nuget.org/packages/LogoFX.Client.Mvvm.View.Extensions)
+
+This repository is archived. Its functionality has been moved to https://github.com/LogoFX/mvvm
